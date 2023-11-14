@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>GIT 上传github仓库的常用命令</title>
+      <link href="/2023/11/13/GIT%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/11/13/GIT%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-创建仓库"><a href="#1-创建仓库" class="headerlink" title="1. 创建仓库"></a>1. 创建仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><h3 id="2-添加文件"><a href="#2-添加文件" class="headerlink" title="2. 添加文件"></a>2. 添加文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><h3 id="3-提交文件"><a href="#3-提交文件" class="headerlink" title="3. 提交文件"></a>3. 提交文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;提交信息&quot;</span><br></pre></td></tr></table></figure><h3 id="4-关联远程仓库"><a href="#4-关联远程仓库" class="headerlink" title="4. 关联远程仓库"></a>4. 关联远程仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">通过</span><br><span class="line">git remote add origin 仓库地址</span><br></pre></td></tr></table></figure><h3 id="5-推送文件"><a href="#5-推送文件" class="headerlink" title="5. 推送文件"></a>5. 推送文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><h3 id="6-拉取文件"><a href="#6-拉取文件" class="headerlink" title="6. 拉取文件"></a>6. 拉取文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure><h3 id="7-删除文件"><a href="#7-删除文件" class="headerlink" title="7. 删除文件"></a>7. 删除文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rm --cached 文件名</span><br></pre></td></tr></table></figure><h3 id="8-重命名文件"><a href="#8-重命名文件" class="headerlink" title="8. 重命名文件"></a>8. 重命名文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git mv 文件名 新文件名</span><br></pre></td></tr></table></figure><h3 id="9-克隆仓库"><a href="#9-克隆仓库" class="headerlink" title="9. 克隆仓库"></a>9. 克隆仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 仓库地址</span><br></pre></td></tr></table></figure><h3 id="10-设置用户名和邮箱"><a href="#10-设置用户名和邮箱" class="headerlink" title="10. 设置用户名和邮箱"></a>10. 设置用户名和邮箱</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure><h3 id="11-忽略文件"><a href="#11-忽略文件" class="headerlink" title="11. 忽略文件"></a>11. 忽略文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch .gitignore</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/11/12/hello-world/"/>
       <url>/2023/11/12/hello-world/</url>
